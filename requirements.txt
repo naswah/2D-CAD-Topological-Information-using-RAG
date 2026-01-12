@@ -8,3 +8,5 @@ faiss-cpu
 chromadb
 langchain-groq
 python-dotenv
+langchain_openai
+langgraph
