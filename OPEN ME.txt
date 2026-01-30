@@ -1,0 +1,4 @@
+1. For 2D RAG topology extraction,
+    - notebook
+    - 2DRAGVisual.ipynb
+        To run, start the docker desktop for Qdrant and run the file.
