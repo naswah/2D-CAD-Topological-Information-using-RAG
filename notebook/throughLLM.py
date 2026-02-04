@@ -120,7 +120,7 @@ def extract_topology(image_path: str, output_topology_path: str):
 
 # ----------------- MAIN -----------------
 if __name__ == "__main__":
-    img_in = "/Users/naswahmanandhar/Desktop/RAG/images/22.png"
-    topo_out = "/Users/naswahmanandhar/Desktop/RAG/LLM topology result/22LLM.txt"
+    img_in = "/Users/naswahmanandhar/Desktop/RAG/images/25.png"
+    topo_out = "/Users/naswahmanandhar/Desktop/RAG/LLM topology result/25LLM.txt"
 
     extract_topology(img_in, topo_out)
