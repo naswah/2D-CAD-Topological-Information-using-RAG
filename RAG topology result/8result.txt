@@ -7,13 +7,13 @@
         {
           "loop_id": 1,
           "region": "MATERIAL",
-          "nodes": 6,
-          "edges": 6,
+          "nodes": 8,
+          "edges": 8,
           "edge_type": {
             "straight": 4,
-            "chamfer": 2
-          },
-          "entity_type": "Polygon"
+            "chamfer": 4,
+            "arc": 0
+          }
         }
       ],
       "inner_closed_loops": [
@@ -22,78 +22,44 @@
           "region": "VOID",
           "nodes": 0,
           "edges": 0,
-          "type": "Circle",
-          "entity_type": "Circle"
+          "type": "Circle"
         },
         {
           "loop_id": 3,
           "region": "VOID",
           "nodes": 0,
           "edges": 0,
-          "type": "Circle",
-          "entity_type": "Circle"
+          "type": "Circle"
         },
         {
           "loop_id": 4,
           "region": "VOID",
           "nodes": 0,
           "edges": 0,
-          "type": "Circle",
-          "entity_type": "Circle"
+          "type": "Circle"
         },
         {
           "loop_id": 5,
           "region": "VOID",
           "nodes": 0,
           "edges": 0,
-          "type": "Circle",
-          "entity_type": "Circle"
-        }
-      ],
-      "relationships": [
-        {
-          "type": "vertical_alignment",
-          "entities": [
-            2,
-            3
-          ]
-        },
-        {
-          "type": "vertical_alignment",
-          "entities": [
-            4,
-            5
-          ]
-        },
-        {
-          "type": "symmetry",
-          "axis": "centerline",
-          "entities": [
-            [
-              2,
-              3
-            ],
-            [
-              4,
-              5
-            ]
-          ]
+          "type": "Circle"
         }
       ]
     },
     {
-      "view": "side",
+      "view": "front",
       "outer_closed_loops": [
         {
-          "loop_id": 1,
+          "loop_id": 6,
           "region": "MATERIAL",
           "nodes": 12,
           "edges": 12,
           "edge_type": {
             "straight": 8,
-            "curved": 4
-          },
-          "entity_type": "Z-Profile"
+            "chamfer": 0,
+            "arc": 4
+          }
         }
       ],
       "inner_closed_loops": []

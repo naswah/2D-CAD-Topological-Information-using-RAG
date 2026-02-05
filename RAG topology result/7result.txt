@@ -7,11 +7,12 @@
         {
           "loop_id": 1,
           "region": "MATERIAL",
-          "nodes": 4,
-          "edges": 4,
+          "nodes": 8,
+          "edges": 8,
           "edge_type": {
             "straight": 4,
-            "curved": 0
+            "chamfer": 4,
+            "arc": 0
           }
         }
       ],
@@ -21,22 +22,22 @@
           "region": "VOID",
           "nodes": 4,
           "edges": 4,
-          "type": "Slot",
           "edge_type": {
             "straight": 2,
-            "curved": 2
-          }
+            "arc": 2
+          },
+          "type": "Slot"
         },
         {
           "loop_id": 3,
           "region": "VOID",
           "nodes": 4,
           "edges": 4,
-          "type": "Slot",
           "edge_type": {
             "straight": 2,
-            "curved": 2
-          }
+            "arc": 2
+          },
+          "type": "Slot"
         },
         {
           "loop_id": 4,
@@ -64,8 +65,8 @@
           "edges": 12,
           "edge_type": {
             "straight": 8,
-            "curved": 4,
-            "chamfer": 0
+            "chamfer": 0,
+            "arc": 4
           }
         }
       ],

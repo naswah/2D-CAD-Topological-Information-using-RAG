@@ -52,6 +52,23 @@ SYSTEM_INSTRUCTION_TOPOLOGY ="""
             "type": "Circle"
             },
             {
+            "loop_id": 2,
+            "nodes": 0,
+            "edges": 0,
+            "type": "Concentric Circles"
+            "concentric circle details":{
+                "circles": 3,
+                "circle 1": {
+                    "type": "MATERIAL"
+                }
+                "circle 2": {
+                    "type": "MATERIAL"
+                }
+                "circle 3": {
+                    "type": "VOID"
+                }
+            },
+            {
             "loop_id": 3,
             "region": "VOID",
             "nodes": 4,
@@ -69,7 +86,7 @@ SYSTEM_INSTRUCTION_TOPOLOGY ="""
 Rules :
 -Inner loops are always VOID, outer loops are always MATERIAL.
 -If entity is Circle: nodes = 0, edges = 0, only mention the type.
-
+- If concentric circles are present, mention so. The innermost circle should be void and the rest should be material.
 Feature to topology mapping
 -Rectangle → 4 nodes, 4 straight edges
 -Fillet → rounded edge replacing sharp corner
@@ -120,7 +137,7 @@ def extract_topology(image_path: str, output_topology_path: str):
 
 # ----------------- MAIN -----------------
 if __name__ == "__main__":
-    img_in = "/Users/naswahmanandhar/Desktop/RAG/images/25.png"
-    topo_out = "/Users/naswahmanandhar/Desktop/RAG/LLM topology result/25LLM.txt"
+    img_in = "/Users/naswahmanandhar/Desktop/RAG/images/27.png"
+    topo_out = "/Users/naswahmanandhar/Desktop/RAG/LLM topology result/27LLM.txt"
 
     extract_topology(img_in, topo_out)

@@ -2,7 +2,7 @@
 {
   "views": [
     {
-      "view": "top",
+      "view": "front",
       "outer_closed_loops": [
         {
           "loop_id": 1,
@@ -13,48 +13,47 @@
             "straight": 4,
             "chamfer": 0,
             "arc": 0
-          }
+          },
+          "type": "Rectangle"
         }
       ],
       "inner_closed_loops": [
         {
           "loop_id": 2,
-          "region": "VOID",
           "nodes": 0,
           "edges": 0,
-          "type": "2 Concentric Circles"
+          "type": "Concentric Circles",
+          "concentric circle details": {
+            "circles": 3,
+            "circle 1": {
+              "type": "MATERIAL"
+            },
+            "circle 2": {
+              "type": "MATERIAL"
+            },
+            "circle 3": {
+              "type": "VOID"
+            }
+          }
         }
       ]
     },
     {
-      "view": "section_a_a",
+      "view": "left",
       "outer_closed_loops": [
         {
-          "loop_id": 1,
+          "loop_id": 3,
           "region": "MATERIAL",
-          "nodes": 8,
-          "edges": 8,
-          "edge_type": {
-            "straight": 8,
-            "chamfer": 0,
-            "arc": 0
-          }
-        }
-      ],
-      "inner_closed_loops": [
-        {
-          "loop_id": 2,
-          "region": "VOID",
           "nodes": 4,
           "edges": 4,
-          "type": "Rectangle",
           "edge_type": {
             "straight": 4,
             "chamfer": 0,
             "arc": 0
-          }
+          },
         }
-      ]
+      ],
+      "inner_closed_loops": []
     }
   ]
 }

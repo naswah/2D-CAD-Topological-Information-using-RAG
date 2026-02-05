@@ -1,0 +1,99 @@
+<<<TOPOLOGY_START>>>
+{
+  "views": [
+    {
+      "view": "front",
+      "outer_closed_loops": [
+        {
+          "loop_id": 1,
+          "region": "MATERIAL",
+          "nodes": 8,
+          "edges": 8,
+          "edge_type": {
+            "straight": 4,
+            "chamfer": 0,
+            "arc": 4
+          }
+        }
+      ],
+      "inner_closed_loops": [
+        {
+          "loop_id": 2,
+          "nodes": 0,
+          "edges": 0,
+          "type": "Concentric Circles",
+          "concentric circle details": {
+            "circles": 2,
+            "circle 1": {
+              "type": "MATERIAL"
+            },
+            "circle 2": {
+              "type": "VOID"
+            }
+          }
+        },
+        {
+          "loop_id": 3,
+          "nodes": 0,
+          "edges": 0,
+          "type": "Concentric Circles",
+          "concentric circle details": {
+            "circles": 2,
+            "circle 1": {
+              "type": "MATERIAL"
+            },
+            "circle 2": {
+              "type": "VOID"
+            }
+          }
+        },
+        {
+          "loop_id": 4,
+          "nodes": 0,
+          "edges": 0,
+          "type": "Concentric Circles",
+          "concentric circle details": {
+            "circles": 2,
+            "circle 1": {
+              "type": "MATERIAL"
+            },
+            "circle 2": {
+              "type": "VOID"
+            }
+          }
+        },
+        {
+          "loop_id": 5,
+          "nodes": 0,
+          "edges": 0,
+          "type": "Concentric Circles",
+          "concentric circle details": {
+            "circles": 2,
+            "circle 1": {
+              "type": "MATERIAL"
+            },
+            "circle 2": {
+              "type": "VOID"
+            }
+          }
+        },
+        {
+          "loop_id": 6,
+          "nodes": 0,
+          "edges": 0,
+          "type": "Concentric Circles",
+          "concentric circle details": {
+            "circles": 2,
+            "circle 1": {
+              "type": "MATERIAL"
+            },
+            "circle 2": {
+              "type": "VOID"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
+<<<TOPOLOGY_END>>>

@@ -10,10 +10,11 @@
           "nodes": 8,
           "edges": 8,
           "edge_type": {
-            "straight": 4,
+            "straight": 8,
             "chamfer": 4,
             "arc": 0
-          }
+          },
+          "type": "Chamfered Rectangle"
         }
       ],
       "inner_closed_loops": [
@@ -37,41 +38,40 @@
       "view": "bottom",
       "outer_closed_loops": [
         {
-          "loop_id": 1,
+          "loop_id": 4,
           "region": "MATERIAL",
           "nodes": 8,
           "edges": 8,
           "edge_type": {
-            "straight": 4,
+            "straight": 8,
             "chamfer": 4,
             "arc": 0
-          }
+          },
+          "type": "Chamfered Rectangle"
         }
       ],
       "inner_closed_loops": [
         {
-          "loop_id": 2,
+          "loop_id": 5,
           "region": "VOID",
           "nodes": 4,
           "edges": 4,
-          "type": "Slot",
           "edge_type": {
             "straight": 2,
-            "chamfer": 0,
             "arc": 2
-          }
+          },
+          "type": "Slot"
         },
         {
-          "loop_id": 3,
+          "loop_id": 6,
           "region": "VOID",
           "nodes": 4,
           "edges": 4,
-          "type": "Slot",
           "edge_type": {
             "straight": 2,
-            "chamfer": 0,
             "arc": 2
-          }
+          },
+          "type": "Slot"
         }
       ]
     },
@@ -79,15 +79,15 @@
       "view": "side",
       "outer_closed_loops": [
         {
-          "loop_id": 1,
+          "loop_id": 7,
           "region": "MATERIAL",
           "nodes": 8,
           "edges": 8,
           "edge_type": {
             "straight": 6,
-            "chamfer": 0,
             "arc": 2
-          }
+          },
+          "type": "L-Profile with Bends"
         }
       ],
       "inner_closed_loops": []
